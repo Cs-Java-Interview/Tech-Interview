@@ -5,7 +5,7 @@
 # 교착상태(Deadlock)란?
 * 교착상태란 `상호배제`에 의해 `다중 프로그래밍` 시스템에서 여러 프로세스들이 공유하고 있는 일부 자원들을 점유하고 놓지 않으면서 다른 프로세스가 갖고 있는 자원들을 요구하여 무한정으로 기다리고 있는 상태를 말한다.
 
-![deadlock](./images/deadlock1.png){: width="50%" height="50%"}
+![deadlock](./images/deadlock1.png)
 0. Process1,2와 공유자원 Resource1,2가 있다고 하자.
 1. Process1이 Resource1에 을 사용하며 `Lock` 동시에 Resource2를 요청하며 대기 `Wait` 한다.
 2. 하지만 Process2가 이미 Resource2에 대한 선점을 진행하고 있는 상태이며, Process2 또한 Resource1의 사용을 요청한다.
@@ -74,7 +74,7 @@
 
 * 자원할당 그래프는 사진과 같다
 
-![자원할당 그래프](./images/deadlock2.png){: width="50%" height="50%"}
+![자원할당 그래프](./images/deadlock2.png)
 
 * 검출이 완료된 교착상태의 후속작업으로 `회복`을 진행한다.
 1. 교착 상태를 일으킨 `모든 프로세스를 종료` : 이 방법은 종료된 프로세스들이 동시에 작업을 시작하면 다시 교착상태를 일으킬 수 있다. 따라서 종료 후 순차적으로 실행한다.
