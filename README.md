@@ -68,10 +68,10 @@
 * [X] [메모리 관리 전략](/os/memory_management_strategy.md)
 * [X] [가상 메모리](/os/virtual_memory.md)
 * [X] [캐시의 지역성](/os/locality.md)
-* [X] 교착상태(데드락, Deadlock)의 개념과 조건(/os/deadlock.md)
-* [X] 사용자 수준 스레드와 커널 수준 스레드
+* [X] [교착상태(데드락, Deadlock)의 개념과 조건](/os/deadlock.md)
+* [X] [사용자 수준 스레드와 커널 수준 스레드](/os/user_and_kernal_thread.md)
 * [ ] 외부 단편화와 내부 단편화
-* [X] Context Switching
+* [X] [Context Switching](/os/context_switching.md)
 * [ ] Swapping
 
 ## 4. Database
