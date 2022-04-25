@@ -58,7 +58,7 @@
 ## 3. Operating System
 :arrow_forward: [답변 내용](/contents/os.md)
 * [X] [프로세스와 스레드의 차이(Process vs Thread)](/os/process_thread.md)
-* [X] 멀티 프로세스 대신 멀티 스레드를 사용하는 이유
+* [X] [멀티 프로세스 대신 멀티 스레드를 사용하는 이유](/os/multi_thread.md)
 * [X] Thread-safe
 * [ ] 동기화 객체의 종류
 * [X] [뮤텍스와 세마포어의 차이](/os/mutex_and_semaphore.md)
