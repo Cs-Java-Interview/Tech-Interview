@@ -72,35 +72,33 @@ CPU 입장에서의 최소 작업 단위
         
         쓰레드를 사용하여 많은 양도 한번에 처리하는 멀티스레드를 사용한다.
 ```java 
-public class ThreadEx {
-      public static void main(String[] args) {
-        Thread t = new MyThread();
-        t.start();
-        // 작업 A
+public class Task implements Runnable {
+    @Override
+    public void run() {
+        // 실행 내용
     }
 }
 
-class MyThread extends Thread {
-    @Override
-    public void run() {
-        // 작업 B 
-    }
+public static void main(String args[]){
+    Runnable task = new Task();
+    Thread thread1 = new Thread(task);
+    Thread thread2 = new Thread(task);
+
+    thread1.start(); // 작업A
+    thread2.start(); // 작업B
 }
 
 // 두 작업이 동시에 실행된다
 ```
-- **Java에서 Thread를 구현하는 방식**
+### **Java에서 Thread를 구현하는 방식**
     1. Thread 클래스를 이용하는 것
     2. Runnable 인터페이스를 이용하는 것 (일반적인 방식!)
-    
     ⇒ 두 가지 중 한 가지 방법 선택 후 run() 함수 구현하고 start()로 실행
     
 1. Thread 클래스를 이용하는 것
-
-Thread 클래스를 상속받으면 다른 클래스를 상속 받지 못한다.
+    - Thread 클래스를 상속받으면 다른 클래스를 상속 받지 못한다.
 
 ```java
-// 멀티 스레드 예시
 class MyThread extends Thread {
  
     public void run() {
@@ -112,8 +110,7 @@ public class Thread implements Runnable
 ```
 
 2. Runnable 인터페이스를 이용하는 것
-
-Runnable은 run만 정의되어있는 인터페이스로, 재사용성이 높고 코드의 일관성을 유지할 수 있는 객체지향적인 방식이다.
+    - Runnable은 run만 정의되어있는 인터페이스로, 재사용성이 높고 코드의 일관성을 유지할 수 있는 객체지향적인 방식이다.
 
 ```java
 public class Test implements Runnable {
