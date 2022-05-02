@@ -63,8 +63,8 @@
 * [ ] 동기화 객체의 종류
 * [X] [뮤텍스와 세마포어의 차이](/os/mutex_and_semaphore.md)
 * [ ] 스케줄러
-* [ ] 동기와 비동기
-* [ ] 프로세스 동기화
+* [X] [동기와 비동기](/os/sync_and_async.md)
+* [X] [프로세스 동기화](/os/process_sync.md)
 * [X] [메모리 관리 전략](/os/memory_management_strategy.md)
 * [X] [가상 메모리](/os/virtual_memory.md)
 * [X] [캐시의 지역성](/os/locality.md)
