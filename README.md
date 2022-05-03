@@ -70,7 +70,7 @@
 * [X] [캐시의 지역성](/os/locality.md)
 * [X] [교착상태(데드락, Deadlock)의 개념과 조건](/os/deadlock.md)
 * [X] [사용자 수준 스레드와 커널 수준 스레드](/os/user_and_kernal_thread.md)
-* [ ] 외부 단편화와 내부 단편화
+* [X] [외부 단편화와 내부 단편화](/os/fragmentation.md)
 * [X] [Context Switching](/os/context_switching.md)
 * [X] [Swapping](os/Swapping.md)
 
