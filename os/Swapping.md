@@ -4,6 +4,9 @@
 
 이때 디스크의 스왑 영역은 백킹스토어(backing store)이라 한다.
 
+![image](https://user-images.githubusercontent.com/77563814/166431043-72550634-a331-430d-8ba1-fef1d2de8e7c.png)
+
+
 - **How ?** 메인메모리에 올라올 수 있는 프로세스가 다 차면, 가장 사용하지 않는 페이지를 Swap-out 해서 Backing storage에 넣어 놓고 다시 필요할 때 Swap-in한다.
     - **swap out** : 메모리에서 디스크로 내보내는 것
     - **swap in** : 디스크에서 메모리로 올리는 것
