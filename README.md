@@ -72,7 +72,7 @@
 * [X] [사용자 수준 스레드와 커널 수준 스레드](/os/user_and_kernal_thread.md)
 * [ ] 외부 단편화와 내부 단편화
 * [X] [Context Switching](/os/context_switching.md)
-* [ ] Swapping
+* [X] [Swapping](os/Swapping.md)
 
 ## 4. Database
 :arrow_forward: [답변 내용](/contents/db.md)
