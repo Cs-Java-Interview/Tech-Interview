@@ -60,7 +60,7 @@
 * [X] [프로세스와 스레드의 차이(Process vs Thread)](/os/process_thread.md)
 * [X] [멀티 프로세스 대신 멀티 스레드를 사용하는 이유](/os/multi_thread.md)
 * [X] [Thread-safe](/os/thread_safe.md)
-* [ ] 동기화 객체의 종류
+* [X] [동기화 객체의 종류](/os/synchronization_object.md)
 * [X] [뮤텍스와 세마포어의 차이](/os/mutex_and_semaphore.md)
 * [ ] 스케줄러
 * [X] [동기와 비동기](/os/sync_and_async.md)
