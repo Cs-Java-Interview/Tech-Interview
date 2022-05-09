@@ -35,8 +35,8 @@
 
 ## 2. Network
 :arrow_forward: [답변 내용](/contents/network.md)
-* [ ] OSI 7계층
-* [ ] TCP/IP의 개념
+* [X] [OSI 7계층](/network/osi_7layer.md)
+* [X] [TCP/IP의 개념](/network/tcp_ip.md)
 * [ ] TCP와 UDP
 * [ ] TCP와 UDP의 헤더 분석
 * [ ] TCP의 3-way-handshake와 4-way-handshake
