@@ -65,20 +65,15 @@
 **: HTTP 응답 메시지 내에서만 사용하는, 서버로부터 받은 메세지의 헤더**
 
 - **Server**: 서버 소프트웨어 정보
-- **Accept-Range**
-- **Set-Cookie**: 서버측에서 클라이언트에게 세션 쿠키 정보를 설정 (RFC 2965에서 규정)
+- **Set-Cookie**: 서버측에서 클라이언트에게 세션 쿠키 정보를 설정
 - **Expires**: 리소스가 지정된 일시까지 캐시로써 유효함
 - **Age**: 캐시 응답. max-age 시간 내에서 얼마나 흘렀는지 알려줌(초 단위)
 - **ETag**: HTTP 컨텐츠가 바뀌었는지를 검사할 수 있는 태그
 - **Proxy-authenticate**
 - **Allow**: 해당 엔터티에 대해 서버 측에서 지원 가능한 HTTP 메소드의 리스트를 나타냄
-    - 때론, HTTP 요청 메세지의 HTTP 메소드 OPTIONS에 대한 응답용 항목
-        - OPTIONS: 웹서버측 제공 HTTP 메소드에 대한 질의
-    - `Allow: GET,HEAD` => 웹 서버측이 제공 가능한 HTTP 메서드는 GET,HEAD 뿐임을 알림 (405 Method Not Allowed 에러와 함께)
 - **Access-Control-Allow-Origin**: 요청을 보내는 프론트 주소와 받는 백엔드 주소가 다르면 *CORS 에러*가 발생
     - 서버에서 이 헤더에 프론트 주소를 적어주어야 에러가 나지 않는다.
     - `Access-Control-Allow-Origin: www.zerocho.com`
         - 프로토콜, 서브도메인, 도메인, 포트 중 하나만 달라도 CORS 에러가 난다.
     - `Access-Control-Allow-Origin: *`
-        - 만약 주소를 일일이 지정하기 싫다면 *으로 모든 주소에 CORS 요청을 허용되지만 그만큼 보안이 취약해진다.
-    - 유사한 헤더로 `Access-Control-Request-Method, Access-Control-Request-Headers, Access-Control-Allow-Methods, Access-Control-Allow-Headers` 등이 있다.
+        - 만약 주소를 일일이 지정하기 싫다면 *으로 모든 주소에 CORS 요청을 허용되지만 그만큼 보안이 취약해진다
