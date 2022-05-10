@@ -63,7 +63,7 @@
 ## 1) UDP, User Datagram Protocol
 ### 특징
 - `best-effort` service : 전달보장 X, 순서보장 X, 데이터무결성보장 X
-- `connectionless` : 송/수신측 handshaking X, 각 UDP Segment는 독립적으로 다뤄짐.
+- `connectionless` : 송/수신측 handshaking X, 각 UDP datagram은 독립적으로 다뤄짐.
 
 ### UDP 사용 예시
 - DNS
