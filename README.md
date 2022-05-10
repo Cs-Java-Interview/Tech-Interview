@@ -39,11 +39,11 @@
 * [X] [TCP/IP의 개념](/network/tcp_ip.md)
 * [X] [TCP와 UDP](/network/tcp_udp.md)
 * [X] [TCP와 UDP의 헤더 분석](/network/tcp_udp_header.md)
-* [ ] TCP의 3-way-handshake와 4-way-handshake
+* [X] [TCP의 3-way-handshake와 4-way-handshake](/network/handshake.md)
   * Q. TCP의 연결 설정 과정(3단계)과 연결 종료 과정(4단계)이 단계가 차이나는 이유?
   * Q. 만약 Server에서 FIN 플래그를 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN 패킷보다 늦게 도착하는 상황이 발생하면 어떻게 될까?
   * Q. 초기 Sequence Number인 ISN을 0부터 시작하지 않고 난수를 생성해서 설정하는 이유?
-* [ ] HTTP와 HTTPS
+* [X] [HTTP와 HTTPS](/network/http_https0.md)
 * [X] [HTTP 요청/응답 헤더](/network/http_header.md)
 * [X] [HTTP와 HTTPS 동작 과정](/network/http_https.md)
 * [ ] CORS란
