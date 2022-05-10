@@ -1,5 +1,8 @@
 ## HTTP 헤더
 
+![image](https://user-images.githubusercontent.com/77563814/167558667-23da2b3a-6f18-44f0-b6aa-e6d082aa2895.png)
+
+
 - HTTP 헤더란
     - 클라이언트와 서버가 요청 또는 응답으로 부가적인 정보를 전송할 수 있도록 해준다.
 - HTTP 헤더내에는 4종류의 헤더가 있다.
@@ -40,7 +43,6 @@
         - 이런 응답이 왔다면 브라우저는 / 주소로 redirect한다.
 - **Last-Modified**: 리소스를 마지막으로 갱신한 일시
 
-![image](https://user-images.githubusercontent.com/77563814/167558667-23da2b3a-6f18-44f0-b6aa-e6d082aa2895.png)
 ## 요청 헤더 (Request Header)
 
 **: HTTP 요청 메시지 내에서만 사용하는, 클라이언트가 보내는 메세지의 헤더**
