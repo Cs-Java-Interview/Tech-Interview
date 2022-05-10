@@ -37,8 +37,8 @@
 :arrow_forward: [답변 내용](/contents/network.md)
 * [X] [OSI 7계층](/network/osi_7layer.md)
 * [X] [TCP/IP의 개념](/network/tcp_ip.md)
-* [X] TCP와 UDP
-* [X] TCP와 UDP의 헤더 분석
+* [X] [TCP와 UDP](/network/tcp_udp.md)
+* [X] [TCP와 UDP의 헤더 분석](/network/tcp_udp_header.md)
 * [ ] TCP의 3-way-handshake와 4-way-handshake
   * Q. TCP의 연결 설정 과정(3단계)과 연결 종료 과정(4단계)이 단계가 차이나는 이유?
   * Q. 만약 Server에서 FIN 플래그를 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN 패킷보다 늦게 도착하는 상황이 발생하면 어떻게 될까?
