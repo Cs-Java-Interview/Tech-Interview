@@ -50,8 +50,8 @@
 * [ ] GET 메서드와 POST 메서드
 * [ ] 쿠키(Cookie)와 세션(Session)
 * [ ] DNS
-* [X] [REST와 RESTful의 개념] (/network/rest_restful.md)
-* [X] [소켓(Socket)이란] (/network/socket.md)
+* [X] [REST와 RESTful의 개념](/network/rest_restful.md)
+* [X] [소켓(Socket)이란](/network/socket.md)
 * [ ] Socket.io와 WebSocket의 차이
 * [ ] Frame, Packet, Segment, Datagram
 
