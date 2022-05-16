@@ -13,18 +13,21 @@ DNS는 Domain Name System의 약자이다. 그렇다면 DNS의 **Domain**에 대
 * DNS 안에서 IP와 도메인 매칭 역할을 하는것이 `DNS서버`다.
 
 ## DNS 구조
+
+![dns1](./images/dns1.png)
+
 * 도메인은 계층 구조기 때문에 인터넷 주소 중 원하는 주소를 효율적으로 찾을 수 있다.
 * 도메인은 **역트리 구조**로 최상위 `루트`부터 `Top-level 도메인`, `Second-level 도메인`.. 과 같이하위 레벨로 원하는 주소를 찾아간다.
 * **third.second.top.**과 같은 형식이며 **naver.com**의 경우와 같이 맨 뒤의 루트(.)는 생략한다.
 * 주소를 찾아가는 경로는 뒤에서부터 앞으로 진행된다.
 
-[dns1](./images/dns1.png)
+
 
 ## DNS 동작과정
 
 > naver.com을 주소창에 입력했을 DNS에서 일어나는 일
 
-[dns2](./images/dns2.png)
+![dns2](./images/dns2.png)
 
 1. **naver.com**가 주소창에 입력된다.
 2. naver.com의 IP가 무엇인지에 대해 `Local DNS 서버`에 전달한다.
