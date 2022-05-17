@@ -46,7 +46,7 @@
 * [X] [HTTP와 HTTPS](/network/http_https0.md)
 * [X] [HTTP 요청/응답 헤더](/network/http_header.md)
 * [X] [HTTP와 HTTPS 동작 과정](/network/http_https.md)
-* [ ] CORS란
+* [X] CORS란
 * [ ] GET 메서드와 POST 메서드
 * [ ] 쿠키(Cookie)와 세션(Session)
 * [ ] DNS
