@@ -47,7 +47,7 @@
 * [X] [HTTP 요청/응답 헤더](/network/http_header.md)
 * [X] [HTTP와 HTTPS 동작 과정](/network/http_https.md)
 * [X] [CORS란](/network/cors.md)
-* [ ] GET 메서드와 POST 메서드
+* [X] [GET 메서드와 POST 메서드](/network/get_post_method.md)
 * [ ] 쿠키(Cookie)와 세션(Session)
 * [ ] DNS
 * [X] [REST와 RESTful의 개념](/network/rest_restful.md)
