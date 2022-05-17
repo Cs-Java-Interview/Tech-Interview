@@ -48,8 +48,8 @@
 * [X] [HTTP와 HTTPS 동작 과정](/network/http_https.md)
 * [X] [CORS란](/network/cors.md)
 * [X] [GET 메서드와 POST 메서드](/network/get_post_method.md)
-* [ ] 쿠키(Cookie)와 세션(Session)
-* [ ] DNS
+* [X] [쿠키(Cookie)와 세션(Session)](/network/cookie_session.md)
+* [X] [DNS](/network/dns.md)
 * [X] [REST와 RESTful의 개념](/network/rest_restful.md)
 * [X] [소켓(Socket)이란](/network/socket.md)
 * [X] [Socket.io와 WebSocket의 차이](/network/socket.io_websocket.md)
