@@ -52,8 +52,8 @@
 * [ ] DNS
 * [X] [REST와 RESTful의 개념](/network/rest_restful.md)
 * [X] [소켓(Socket)이란](/network/socket.md)
-* [ ] Socket.io와 WebSocket의 차이
-* [ ] Frame, Packet, Segment, Datagram
+* [X] [Socket.io와 WebSocket의 차이](/network/socket.io_websocket.md)
+* [X] [Frame, Packet, Segment, Datagram](/network/pdu.md)
 
 ## 3. Operating System
 :arrow_forward: [답변 내용](/contents/os.md)
