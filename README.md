@@ -82,7 +82,7 @@
 * [ ] 트랜잭션 격리 수준(Transaction Isolation Level)
 * [ ] Join
 * [ ] SQL injection
-* [ ] Index란
+* [X] [Index란](/db/index.md)
 * [ ] Statement와 PrepareStatement
 * [ ] RDBMS와 NoSQL
 * [ ] 효과적인 쿼리 저장
