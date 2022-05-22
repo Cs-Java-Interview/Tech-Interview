@@ -83,7 +83,7 @@
 * [ ] Join
 * [ ] SQL injection
 * [X] [Index란](/db/index.md)
-* [ ] Statement와 PrepareStatement
+* [X] [Statement와 PrepareStatement](/db/statement_preparedstatement.md)
 * [ ] RDBMS와 NoSQL
 * [ ] 효과적인 쿼리 저장
 * [ ] 옵티마이저(Optimizer)란
