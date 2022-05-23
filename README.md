@@ -76,8 +76,8 @@
 
 ## 4. Database
 :arrow_forward: [답변 내용](/contents/db.md)
-* [ ] 데이터베이스 풀
-* [ ] 정규화(1차 2차 3차 BCNF)
+* [X] [데이터베이스 풀](/db/connection_pool.md)
+* [X] [정규화(1차 2차 3차 BCNF)](/db/normalization.md)
 * [ ] 트랜잭션(Transaction) 이란
 * [ ] 트랜잭션 격리 수준(Transaction Isolation Level)
 * [ ] Join
