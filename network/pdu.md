@@ -24,4 +24,4 @@
     - Packets = Segment + IP 주소
 - 네트워크 인터페이스 계층 :
     - Frame = Packets + MAC 주소
-    - LAN일 경우 MAC 주소가 이고, WAN 영역일 경우 WAN 영역에 대한 정보로 채워짐
+    - LAN일 경우 MAC 주소이고, WAN 영역일 경우 WAN 영역에 대한 정보로 채워짐
