@@ -80,8 +80,8 @@
 * [X] [정규화(1차 2차 3차 BCNF)](/db/normalization.md)
 * [X] [트랜잭션(Transaction) 이란](/db/transaction.md)
 * [X] [트랜잭션 격리 수준(Transaction Isolation Level)](/db/isolation_level.md)
-* [ ] Join
-* [ ] SQL injection
+* [X] Join(/db/join.md)
+* [X] SQL injection(/db/sql_injection.md)
 * [X] [Index란](/db/index.md)
 * [X] [Statement와 PrepareStatement](/db/statement_preparedstatement.md)
 * [ ] RDBMS와 NoSQL
