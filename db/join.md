@@ -77,7 +77,7 @@ ON A.NO = B.NO
 |2|KIM|30|**NULL**|**NULL**|
 |3|PARK|10|**NULL**|**NULL**|
 
-### LEFT OUTER JOIN
+### RIGHT OUTER JOIN
 
 <img width="169" alt="image" src="https://user-images.githubusercontent.com/36829127/169673830-2105570b-aee9-4287-a844-2b80152de840.png">
 
