@@ -88,7 +88,7 @@
 * [ ] 효과적인 쿼리 저장
 * [ ] 옵티마이저(Optimizer)란
 * [ ] Replication
-* [ ] 파티셔닝(Partitioning)
+* [X] [파티셔닝(Partitioning)](/db/partitioning.md)
 * [ ] 샤딩(Sharding)
 * [ ] 객체 관계 매핑(Object-relational mapping, ORM)이란
 * [ ] java JDBC
