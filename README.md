@@ -85,7 +85,7 @@
 * [X] [Index란](/db/index.md)
 * [X] [Statement와 PrepareStatement](/db/statement_preparedstatement.md)
 * [ ] RDBMS와 NoSQL
-* [ ] 효과적인 쿼리 저장
+* [X] [효과적인 쿼리 저장](/db/effective_query.md)
 * [ ] 옵티마이저(Optimizer)란
 * [ ] Replication
 * [X] [파티셔닝(Partitioning)](/db/partitioning.md)
