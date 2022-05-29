@@ -11,7 +11,7 @@
     - DB의 종류에 따라 SQL문의 작성 방법이 달라서 구현이 불편했음
     - 그래서 어떤 DBMS든지 동일하게 데이터베이스의 CRUD를 구현할 수 있도록 만든 것이 JDBC이다.
     
-    ![image](https://user-images.githubusercontent.com/77563814/170852737-a5d62c5f-5b20-43f3-904e-ac42f3b1cd33.png)
+    ![image](https://user-images.githubusercontent.com/77563814/170852891-dc27f1f4-e1e9-4475-9903-674a6c11fdfd.png)
     
 
 - **역할**
