@@ -90,8 +90,8 @@
 * [ ] Replication
 * [X] [파티셔닝(Partitioning)](/db/partitioning.md)
 * [ ] 샤딩(Sharding)
-* [ ] 객체 관계 매핑(Object-relational mapping, ORM)이란
-* [ ] java JDBC
+* [X] [객체 관계 매핑(Object-relational mapping, ORM)이란](/db/orm.md)
+* [X] [java JDBC](/db/jdbc.md)
 
 ## 5. Design Pattern
 :arrow_forward: [답변 내용](/contents/designpattern.md)
