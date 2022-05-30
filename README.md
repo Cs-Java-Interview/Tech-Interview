@@ -89,7 +89,7 @@
 * [ ] 옵티마이저(Optimizer)란
 * [ ] Replication
 * [X] [파티셔닝(Partitioning)](/db/partitioning.md)
-* [ ] 샤딩(Sharding)
+* [X] [샤딩(Sharding)](/db/sharding.md)
 * [X] [객체 관계 매핑(Object-relational mapping, ORM)이란](/db/orm.md)
 * [X] [java JDBC](/db/jdbc.md)
 
