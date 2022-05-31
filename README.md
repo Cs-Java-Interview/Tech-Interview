@@ -86,8 +86,8 @@
 * [X] [Statement와 PrepareStatement](/db/statement_preparedstatement.md)
 * [X] [RDBMS와 NoSQL](/db/rdbms_nosql.md)
 * [X] [효과적인 쿼리 저장](/db/effective_query.md)
-* [ ] 옵티마이저(Optimizer)란
-* [ ] Replication
+* [X] [옵티마이저(Optimizer)란](/db/optimizer.md)
+* [X] [Replication](/db/replication.md)
 * [X] [파티셔닝(Partitioning)](/db/partitioning.md)
 * [X] [샤딩(Sharding)](/db/sharding.md)
 * [X] [객체 관계 매핑(Object-relational mapping, ORM)이란](/db/orm.md)
