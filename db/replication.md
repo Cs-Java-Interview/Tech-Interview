@@ -53,3 +53,8 @@
 - Relay log에 기록이 완료되었다는 메세지(신호)를 받아야만 처리중인 트랜잭션의 결과를 반환하는 방식
 - Async 방식에 비하면 성능이 조금 저하되지만, 완전한 sync(slave에서 relay log 내용까지 적용되는) 방식보다는 성능 저하가 덜함
 - Slave 측까지 변경이력이 전달되었음을 보장하기 때문에 async 방식에 비해 Master 와 slave 사이의 데이터 동기화나 안전성이 더욱 보장됨
+
+<br>
+<br>
+
+출처 : [[MySQL] 복제(Replication)란 무엇일까?](https://devlog-wjdrbs96.tistory.com/371), [MySQL Replication(복제) 구성 및 설정 - Async - Semi Async](https://hoing.io/archives/3111)
