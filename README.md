@@ -25,7 +25,7 @@
 * [ ] LinkedList
 * [ ] HashTable
 * [ ] Stack
-* [ ] Queue
+* [X] [Queue](/data_structure/queue.md)
 * [ ] Graph
 * [ ] Tree
 * [ ] 그래프(Graph)와 트리(Tree)의 차이점
