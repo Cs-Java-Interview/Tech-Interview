@@ -23,8 +23,8 @@
 :arrow_forward: [답변 내용](/contents/datastructure.md)
 * [ ] Array
 * [ ] LinkedList
-* [ ] HashTable
-* [ ] Stack
+* [X] [HashTable](/data_structure/hash.md)
+* [X] [Stack](/data_structure/stack.md)
 * [X] [Queue](/data_structure/queue.md)
 * [X] [Graph](/data_structure/graph.md)
 * [ ] Tree
