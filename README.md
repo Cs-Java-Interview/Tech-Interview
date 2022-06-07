@@ -21,8 +21,8 @@
 
 ## 1. Data Structure
 :arrow_forward: [답변 내용](/contents/datastructure.md)
-* [ ] Array
-* [ ] LinkedList
+* [X] [Array](/data_structure/array.md)
+* [X] [LinkedList](/data_structure/linkedlist.md)
 * [X] [HashTable](/data_structure/hash.md)
 * [X] [Stack](/data_structure/stack.md)
 * [X] [Queue](/data_structure/queue.md)
