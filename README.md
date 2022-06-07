@@ -132,14 +132,18 @@
   * Q. java의 main 메서드가 static인 이유
 * [ ] java의 final 키워드 (final/finally/finalize)
 * [ ] java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
-* [ ] java의 가비지 컬렉션(Garbage Collection) 처리 방법
+* [ ] java의 가비지 컬렉션(Garbage Collection) 처리 방법 
+  * GC모니터링이란
 * [ ] java 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
 * [ ] 클래스, 객체, 인스턴스의 차이
 * [ ] 객체(Object)란 무엇인가
 * [ ] 오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
 * [ ] Call by Reference와 Call by Value의 차이
 * [ ] 인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)
-* [ ] JVM 구조
+* [ ] JVM 구조 및 실행과정
+* [ ] 자바 메모리 구조
+  * 클래스 로드 방법
+  * 클래스 로드 과정
 * [ ] Java Collections Framework
   * java Map 인터페이스 구현체의 종류
   * java Set 인터페이스 구현체의 종류
@@ -151,6 +155,7 @@
 * [ ] java의 리플렉션(Reflection) 이란
 * [ ] Stream이란?
 * [ ] Lambda란?
+* [ ] Java 버전
 
 ## 8. JavaScript
 :arrow_forward: [답변 내용](/contents/javascript.md)
