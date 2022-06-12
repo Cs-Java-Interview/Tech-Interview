@@ -28,8 +28,8 @@
 * [X] [Queue](/data_structure/queue.md)
 * [X] [Graph](/data_structure/graph.md)
 * [X] [Tree](/data_structure/tree.md)
-* [ ] 그래프(Graph)와 트리(Tree)의 차이점
-* [ ] Binary Heap
+* [X] [그래프(Graph)와 트리(Tree)의 차이점](/data_structure/graph_tree.md)
+* [X] [Binary Heap](/data_structure/binary_heap.md)
 * [ ] Red-Black Tree
 * [ ] B+ Tree
 
