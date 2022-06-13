@@ -117,9 +117,9 @@
 ## 7. Java
 :arrow_forward: [답변 내용](/contents/java.md)
 * [ ] java 프로그래밍이란
-* [ ] Java SE와 Java EE 애플리케이션 차이
-* [ ] java와 c/c++의 차이점
-* [ ] java 언어의 장단점
+* [X] [Java SE와 Java EE 애플리케이션 차이](/java/javaSEandEE.md)
+* [X] [java와 c/c++의 차이점](/java/java_c.md)
+* [X] [java 언어의 장단점](/java/java_pros_and_cons.md)
 * [ ] java의 접근 제어자의 종류와 특징
 * [ ] java의 데이터 타입
 * [ ] Wrapper class
