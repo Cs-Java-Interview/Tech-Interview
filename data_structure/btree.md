@@ -38,7 +38,7 @@
         
     2. 해당 과정을 리프노드에 도달할 때까지 반복합니다.
     - ex) 탐색 과정
-    - ![image](https://user-images.githubusercontent.com/77563814/173554425-6c66fbf0-ec4a-4dbf-b8a5-133c098094d1.png)
+    - ![image](https://user-images.githubusercontent.com/77563814/173561390-ac9ba3ef-5f7a-46a9-a280-51ecad20dc56.png)
 
         
         
@@ -173,7 +173,7 @@
 - **Case 2. 삭제할 key k가 인덱스 노드에 있는 경우(리프노드의 가장 처음 key인 경우)**
     - 리프노드의 k를 삭제한 후, 인덱스 노드의 *k*를 inorder successor와 바꾼다.
     - ex) 삭제할 대상의 키값이 인덱스 노드에도 있는 경우
-    - ![image](https://user-images.githubusercontent.com/77563814/173554871-d74b82fe-825d-4d53-baf6-94947d1faedf.png)
+    - ![image](https://user-images.githubusercontent.com/77563814/173561063-992f8730-d495-458b-b4e4-625266da97ef.png)
 
         
         
