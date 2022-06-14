@@ -30,8 +30,8 @@
 * [X] [Tree](/data_structure/tree.md)
 * [X] [그래프(Graph)와 트리(Tree)의 차이점](/data_structure/graph_tree.md)
 * [X] [Binary Heap](/data_structure/binary_heap.md)
-* [ ] Red-Black Tree
-* [ ] B+ Tree
+* [X] [Red-Black Tree](/data_structure/redblack_tree.md)
+* [X] [B+ Tree](/data_structure/btree.md)
 
 ## 2. Network
 :arrow_forward: [답변 내용](/contents/network.md)
@@ -116,7 +116,7 @@
 
 ## 7. Java
 :arrow_forward: [답변 내용](/contents/java.md)
-* [ ] java 프로그래밍이란
+* [X] [java 프로그래밍이란](/java/javaprogramming.md)
 * [X] [Java SE와 Java EE 애플리케이션 차이](/java/javaSEandEE.md)
 * [X] [java와 c/c++의 차이점](/java/java_c.md)
 * [X] [java 언어의 장단점](/java/java_pros_and_cons.md)
