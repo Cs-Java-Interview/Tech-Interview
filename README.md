@@ -130,8 +130,8 @@
   * 추상화(Abstraction), 캡슐화(Encapsulation), 상속(Inheritance), 다형성(Polymorphism)
 * [ ] OOP의 5대 원칙 (SOLID)
 * [ ] 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
-* [ ] 객체지향(Object-Oriented)이란
-* [ ] java의 non-static 멤버와 static 멤버의 차이
+* [X] [객체지향(Object-Oriented)이란](/java/object_oriented.md)
+* [X] [java의 non-static 멤버와 static 멤버의 차이](/java/nonstatic_static.md)
   * Q. java의 main 메서드가 static인 이유
 * [ ] java의 final 키워드 (final/finally/finalize)
 * [ ] java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
