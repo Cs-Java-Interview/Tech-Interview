@@ -133,7 +133,7 @@
 * [X] [객체지향(Object-Oriented)이란](/java/object_oriented.md)
 * [X] [java의 non-static 멤버와 static 멤버의 차이](/java/nonstatic_static.md)
   * Q. java의 main 메서드가 static인 이유
-* [ ] java의 final 키워드 (final/finally/finalize)
+* [X] [java의 final 키워드 (final/finally/finalize)](/java/final_finally_finalize.md)
 * [ ] java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
 * [ ] java의 가비지 컬렉션(Garbage Collection) 처리 방법 
   * GC모니터링이란
