@@ -123,9 +123,9 @@
 * [X] [Java SE와 Java EE 애플리케이션 차이](/java/javaSEandEE.md)
 * [X] [java와 c/c++의 차이점](/java/java_c.md)
 * [X] [java 언어의 장단점](/java/java_pros_and_cons.md)
-* [ ] java의 접근 제어자의 종류와 특징
-* [ ] java의 데이터 타입
-* [ ] Wrapper class
+* [X] [java의 접근 제어자의 종류와 특징](/java/accessModifier.md)
+* [X] [java의 데이터 타입](/java/datatype.md)
+* [X] [Wrapper class](/java/wrapper_class.md)
 * [X] [OOP의 4가지 특징](/java/OOP_4features.md)
   * 추상화(Abstraction), 캡슐화(Encapsulation), 상속(Inheritance), 다형성(Polymorphism)
 * [X] [OOP의 5대 원칙 (SOLID)](/java/OOP_5principles.md)
