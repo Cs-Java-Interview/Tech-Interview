@@ -126,10 +126,10 @@
 * [ ] java의 접근 제어자의 종류와 특징
 * [ ] java의 데이터 타입
 * [ ] Wrapper class
-* [ ] OOP의 4가지 특징
+* [X] [OOP의 4가지 특징](/java/OOP_4features.md)
   * 추상화(Abstraction), 캡슐화(Encapsulation), 상속(Inheritance), 다형성(Polymorphism)
-* [ ] OOP의 5대 원칙 (SOLID)
-* [ ] 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
+* [X] [OOP의 5대 원칙 (SOLID)](/java/OOP_5principles.md)
+* [X] [객체지향 프로그래밍과 절차지향 프로그래밍의 차이](/java/OOP_PP.md)
 * [X] [객체지향(Object-Oriented)이란](/java/object_oriented.md)
 * [X] [java의 non-static 멤버와 static 멤버의 차이](/java/nonstatic_static.md)
   * Q. java의 main 메서드가 static인 이유
