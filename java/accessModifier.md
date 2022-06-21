@@ -31,15 +31,13 @@ public class SameClass {
 }
 
 // 3. protected : 동일 패키지에 있거나, 해당 클래스를 상속받은 클래스에서만 접근이 가능하다.
-package test.other;
-import test.SameClass; // test 패키지의 SameClass 클래스를 불러들여 포함시킴.
+package test;
 
-public class ChildClass extends SameClass {
-
+public class SameClass {
+    String var = "다른 패키지는 접근 불가"; // default 필드
     public static void main(String[] args) {
-        SameClass = new SameClass();
-
-        System.out.println(sp.sameVar); // 다른 패키지에 속하는 자식 클래스까지 허용
+        SamePackage sp = new SamePackage();
+        System.out.println(sp.sameVar);     // 같은 패키지는 허용
     }
 }
 
