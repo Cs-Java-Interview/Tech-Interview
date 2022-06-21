@@ -12,10 +12,9 @@
 
 ```java
 // 1. private : 해당 클래스에서만 접근이 가능하다.
-public class Everywhere {
-    public String var = "누구든지 허용"; // public 필드
-
-    public String getVar() {             // public 메소드
+public class SameClass {
+    private String var = "같은 클래스만 허용"; // private 필드
+    private String getVar() {                  // private 메소드
         return this.var;
     }
 }
