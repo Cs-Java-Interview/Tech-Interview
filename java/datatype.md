@@ -42,7 +42,7 @@ public class Test {
         int b = 222;
         swap(a, b);
         System.out.println(a); // 111
-				System.out.println(b); // 222
+	System.out.println(b); // 222
     }
 }
 
@@ -61,7 +61,7 @@ public class Test {
 
         swap(a, b); // 주소값만 복사되어서 swap 함수 밖에서는 적용X
         System.out.println(a); // 111
-				System.out.println(b); // 222
+	System.out.println(b); // 222
     }
 }
 
@@ -85,7 +85,7 @@ public class Test {
 
         swap(a, b); // swap 함수 안에서 참조해서 데이터 변경할 경우, 외부에서도 반영됨
         System.out.println(a); // 222
-				System.out.println(b); // 111
+	System.out.println(b); // 111
     }
 }
 ```
