@@ -3,7 +3,7 @@
 1. Java는 **객체지향 언어** , C는 **절차지향 언어**이다.
 2. 속도는 C가 상대적으로 빠르고 바이너리 크기가 작다.
 3. C는 OS 개발의 목적으로 만들어진 언어이다.
-4. Java는 C와는 다르게 JV위에서 실행되므로 OS 독립적으로 실행이 가능하다. **(Write Once, Run Anywhere)**
+4. Java는 C와는 다르게 JVM 위에서 실행되므로 OS 독립적으로 실행이 가능하다. **(Write Once, Run Anywhere)**
 
 # Java와 CPP 차이점
 
