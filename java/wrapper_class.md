@@ -54,8 +54,8 @@ int n = num.intValue();        // 언박싱
 - 따라서 인스턴스에 저장된 값의 동등 여부를 판단하려면 `equals()` 메소드를 사용해야한다.
 
 ```java
-Integer num1 = new Integer(1000);
-Integer num2 = new Integer(1000);
+Integer num1 = new Integer(1);
+Integer num2 = new Integer(1);
 
 System.out.println(num1 == num2); // false (주소값이 다르므로)
 System.out.println(num1.equals(num2)); // true (저장된 값이 같으므로)
@@ -63,6 +63,8 @@ System.out.println(num1.equals(num2)); // true (저장된 값이 같으므로)
 - 단, JAVA에서는 자주 사용하는 정수 범위(-128부터 127)는 Cache를 한다.
 - 해당 범위일 경우, ```Integer.valueOf(정수)``` 는 새로운 Integer 객체를 생성하지 않고,
 - 내부의 IntegerCache 객체로부터의 Integer 객체를 리턴해준다!
+    - ex1) ```Integer A = 127; ``` : 오토박싱은 내부적으로는 Integer.valueOf(127)을 사용하므로 이때는 캐싱 사용
+    - ex2) ```Integer num2 = new Integer(127);``` : 그냥 객체 생성시에는 캐싱 사용하지 않음
 
 ```java
         Integer A = 127; // 오토 박싱, 내부적으로는 Integer A = Integer.valueOf(127);
