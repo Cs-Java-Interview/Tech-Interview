@@ -142,7 +142,7 @@
 * [ ] 객체(Object)란 무엇인가
 * [ ] 오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
 * [X] [Call by Reference와 Call by Value의 차이](/java/call_by_reference_and_value.md)
-* [ ] 인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)
+* [X] [인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)](/java/abstract_class_interface.md)
 * [ ] JVM 구조 및 실행과정
 * [ ] 자바 메모리 구조
   * 클래스 로드 방법
