@@ -140,7 +140,7 @@
 * [ ] java 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
 * [X] [클래스, 객체, 인스턴스의 차이](/java/class_obj_instance.md.md)
 * [X] [객체(Object)란 무엇인가](/java/object.md)
-* [X] [오버로딩과 오버라이딩의 차이](Overloading vs Overriding)(/java/overloading_overriding.md)
+* [X] [오버로딩과 오버라이딩의 차이(Overloading vs Overriding)](/java/overloading_overriding.md)
 * [X] [Call by Reference와 Call by Value의 차이](/java/call_by_reference_and_value.md)
 * [X] [인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)](/java/abstract_class_interface.md)
 * [ ] JVM 구조 및 실행과정
