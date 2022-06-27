@@ -138,7 +138,7 @@
 * [ ] java의 가비지 컬렉션(Garbage Collection) 처리 방법 
   * GC모니터링이란
 * [ ] java 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
-* [X] [클래스, 객체, 인스턴스의 차이](/java/class_obj_instance.md.md)
+* [X] [클래스, 객체, 인스턴스의 차이](/java/class_obj_instance.md)
 * [X] [객체(Object)란 무엇인가](/java/object.md)
 * [X] [오버로딩과 오버라이딩의 차이(Overloading vs Overriding)](/java/overloading_overriding.md)
 * [X] [Call by Reference와 Call by Value의 차이](/java/call_by_reference_and_value.md)
