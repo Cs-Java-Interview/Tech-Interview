@@ -143,7 +143,7 @@
 * [X] [오버로딩과 오버라이딩의 차이(Overloading vs Overriding)](/java/overloading_overriding.md)
 * [X] [Call by Reference와 Call by Value의 차이](/java/call_by_reference_and_value.md)
 * [X] [인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)](/java/abstract_class_interface.md)
-* [ ] JVM 구조 및 실행과정
+* [X] [JVM 구조 및 실행과정](/java/JVM(Java Virtual Machine).md)
 * [ ] 자바 메모리 구조
   * 클래스 로드 방법
   * 클래스 로드 과정
