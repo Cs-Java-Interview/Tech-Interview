@@ -99,7 +99,7 @@ Mark And Sweep의 첫번째 특징은 **의도적으로 GC를 실행**한다는 
 
 ![image](https://user-images.githubusercontent.com/36829127/176436389-bf76e070-b1ba-4120-813d-6d374fc2b360.png)
 
-JVM의 Heap은 크게 `Young Generation`과 `Old Generation`으로 나뉜다. Young Generation에서 발생하는 GC는 `minor GC` Old Generation에서 발생하는 GC는 `Old GC`라고 부른다.
+JVM의 Heap은 크게 `Young Generation`과 `Old Generation`으로 나뉜다. Young Generation에서 발생하는 GC는 `minor GC` Old Generation에서 발생하는 GC는 `major GC`라고 부른다.
 
 Young Generation은 다시 `Eden`, `Survival 0 `, `Survival 1`로 나뉜다. Eden은 새롭게 생성된 객체들이 할당되는 영역이고, Survival은 minor GC에서 살아남은 객체들이 존재하는 영역이다.
 이때 Survival에서 Survival 0과 1 중 **하나는 꼭 비어있어야 한다**는 규칙이 있다.
