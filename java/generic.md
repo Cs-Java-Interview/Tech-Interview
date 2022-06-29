@@ -157,14 +157,14 @@ Java의 Generic은 타입 제거라는 개념에 근거한다.
 Java Generic이 있다고 해서 크게 달라지기보다 뭔가 더 예쁘게 작성할 수 있게 해준다. 따라서 이를 문법적 양념(syntactic sugar)라고 부른다.
 
 C++의 Template은 좀 더 우아한 형태의 매크로로써 상황이 다르다. 컴파일러는 인자로 주어진 각각의 타입에 대해 별도의 템플릿 코드를 생성한다.
-(ex. Myclass<Foo>, Myclass<Bar>가 서로 static 변수를 공유하지 않는다.)
+(ex. `Myclass<Foo>`, `Myclass<Bar>`가 서로 static 변수를 공유하지 않는다.)
 반면에 Java static 변수는 Myclass로 만든 모든 객체가 공유한다.
 
 
 - C++ Template에는 int와 같은 **기본 타입**을 인자로 넘길 수 있다. Java Generic은 불가능하다. 모든 타입은 Object를 상속해야 하며 따라서 int 대신 Integer를 사용해야 한다.
 - Java의 경우, Generic 타입 인자를 **특정한 타입**이 되도록 제한할 수 있다. 가령 CardDeck을 Generic 클래스로 정의할 때, 그 인자로는 CardGame의 하위 클래스만 사용되도록 제한하는 것이 가능하다.
 - C++ Template는 인자로 주어진 타입으로부터 객체를 만들어 낼 수 있다. Java에서는 불가능하다.
-- Java에서 Generic Type 인자는 **static** 메소드나 변수를 선언하는 데 사용될 수 없다. MyClass<Foo>와 MyClass<Bar>가 이 메서드와 변수를 공유할 것이기 때문이다.
+- Java에서 Generic Type 인자는 **static** 메소드나 변수를 선언하는 데 사용될 수 없다. `MyClass<Foo>`와 `MyClass<Bar`>가 이 메서드와 변수를 공유할 것이기 때문이다.
 C++에서는 이 두 클래스는 다른 클래스이므로 템플릿 타입 인자를 static 메서드나 변수를 선언하는 데 사용할 수 있다.
 - Java에서 MyClass로 만든 모든 객체는 제네릭 타입 인자가 무엇이냐에 관계없이 전부 동등한 타입이다.
 실행시간에 타입 인자 정보는 삭제된다. 반면, C++에서는 다른 템플릿 타입 인자를 사용해 만든 객체는 서로 다른 타입의 객체이다.
