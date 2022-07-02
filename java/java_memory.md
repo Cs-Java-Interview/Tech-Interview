@@ -200,3 +200,12 @@ public class RuntimeLoading {
 * 따라서 RuntimeLoading 클래스를 로딩할 때는 어떤 클래스도 읽어오지 않고, RuntimeLoading 클래스의 main() 메소드가 실행되고 Class.forName(args[0]) 를 호출하는 순간에 비로소 args[0] 에 해당하는 클래스를 로딩한다.
 
 이처럼 클래스를 로딩할때가 아닌 코드를 실행하는 순간에 클래스를 로딩하는 것을 **런타임 동적 로딩**이라고 한다.
+
+
+**참조**
+
+https://velog.io/@shin_stealer/%EC%9E%90%EB%B0%94%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0
+
+https://engkimbs.tistory.com/606
+
+https://steady-coding.tistory.com/593
