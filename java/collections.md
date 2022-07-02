@@ -6,11 +6,18 @@
 
 컬렉션에는 대표적으로 List, Set, Map 인터페이스가 있으며 이를 구현한 다양한 클래스가 존재하고 각각의 특징들 또한 다양하다.
 
-![image](https://user-images.githubusercontent.com/36829127/176997154-ef792207-9d54-4bed-8337-1fe7a6354e8c.png)
+![image](https://user-images.githubusercontent.com/36829127/176997723-351083a2-f45a-4655-9d6a-fed639479115.png)
+
+#### 컬렉션 프레임워크 구현관계 요약
+* **List:** ArrayList, LinkedList, Vector, Stack
+* **Set:** HashSet, LinkedHashSet, TreeSet
+* **Queue:** priorityQueue, ArrayDeque
+* **Map:** HashMap, LinkedHashMap, Hashtable, TreeMap
+
 
 ## Collection 인터페이스 그룹
 
-* List, Set 인터페이스는 Collection 인터페이스를 상속받는다. (Map은 Key-value 구조로 인해 Collection 인터페이스를 상속받지 않고 별도로 정의한다
+* List, Set, Queue 인터페이스는 Collection 인터페이스를 상속받는다. (Map은 Key-value 구조로 인해 Collection 인터페이스를 상속받지 않고 별도로 정의한다)
 
 ### Collection 대표적인 메서드
 
@@ -47,5 +54,87 @@ List 인터페이스의 구현 클래스이다.
 * 단일 스레드 환경에서도 동기화를 사용하기 때문에 비효율적이며, 성능면에서도 동일한 구조를 갖는 ArrayList보다 떨어진다.
 
 ### Stack
+Stack은 LIFO(Last-In-First-Out) 특성을 가지는 자료구조이다.
+* Stack은 Vector를 implements 받는다. 하지만 push(), pop()은 Stack 클래스 내부에 구현됐기 때문에, 이 메소드를 사용하려면 Stack으로 받아야 함.
+  
+## Set 
+Set은 집합이라고도 부르며, 순서가 없고 원소의 중복을 허용하지 않는다.
+
+### HashSet
+HashSet은 집합의 특징 때문에 중복을 허용하지 않는다. 또한 순서를 갖지 않음
+* 대표적으로 많이 사용되는 집합(Set)구조이다.
+
+### LinkedHashSet
+원래 집합의 특징은 중복을 허용하지 않고, 순서를 가지지 않는다는 특징이 있지만
+
+LinkedHashSet은 중복은 허용하지 않지만, **순서는 가진다.**
+
+### TreeSet
+TreeSet도 중복을 허용하지 않고, 순서를 가지지 않는다.
+* 하지만 데이터를 정렬하여 저장하고 있다는 특징이 있다.
+
   
   
+## Queue 컬렉션
+FIFO(First-In-First-Out) 자료구조를 갖고 있음.
+* 처음 들어온 원소가 처음으로 나간다는 특징이 있다.
+* 들어올때는 enqueue, 나갈땐 dequeue라고 함.
+
+### PriorityQueue
+일반 큐와는 다르게 원소에 우선순위를 부여하여 높은 순으로 먼저 반환한다.
+* 이진 트리 구조로 구현되어 있음
+```java
+    // 오름차순 (default)
+    Queue<Integer> priorityQueue = new PriorityQueue<>();
+
+    // 내림차순
+    Queue<Integer> priorityQueue2 = new PriorityQueue<>(Collections.reverseOrder());
+```
+
+### ArrayDeque
+deque는 양쪽으로 넣고 빼는것이 가능한 자료구조이다.
+![image](https://user-images.githubusercontent.com/36829127/176998166-451620fc-d520-4d12-988a-43ad2dbdbb51.png)
+
+## Map 
+Map은 `key-value`로 구성된 자료구조이다.
+* Set처럼 순서를 가지 않음
+* Key값은 중복이 불가능하고, Value는 가능하다.
+
+### HashMap
+HashMap은 일반적으로 많이 사용되는 Map 자료구조이다.
+* 해시함수를 이용한 구조
+* 정렬이 불가능하고 삽입 데이터의 순서를 보장하지 않음
+* 삽입 / 삭제 / 조회 연산이 O(1)을 보장한다.
+
+### HashTable
+HashMap과 동일한 특징을 가지지만, 차이점이라고 하면 Thread-Safe하여 동기화를 지원한다.
+
+### LinkedHashMap
+일반적으로 Map 자료구조는 순서를 가지지 않지만, LinkedHashMap은 들어온 순서대로 순서를 가진다.
+
+### TreeMap
+이진트리로 구성되어 있고, TreeSet과 같이 정렬하여 데이터를 저장하고 있다.
+* 데이터를 저장할때 정렬하기 때문에 저장 시간이 다른 자료구조에 비해 오래걸림
+
+### Map 주요 메서드
+* V put(K Key, V value)	: 주어진 키와 값을 추가하여 저장되면 값을 리턴합니다.
+* boolean containsKey(Object Key)	: 주어진 키가 있는지 확인합니다.
+* boolean containsValue(Object value)	: 주어진 값이 있는지 확인합니다.
+* Set<Map.Entry<K,V>> entrySet()	: 모든 Map.Entry 객체를 Set에 담아 리턴합니다.
+* Set<K> keySet()	: 모든 키를 Set객체에 담아서 리턴합니다.
+* V get(Object key)	: 주어진 키에 있는 값을 리턴합니다.
+* boolean isEmpty()	: 컬렉션이 비어있는지 조사합니다.
+* int Size()	: 저장되어 있는 전체 객체의 수를 리턴합니다.
+* Collection<V> values()	: 저장된 모든 값을 Collection에 담아서 리턴합니다.
+* void clear()	: 저장된 모든 Map.Entry를 삭제합니다.
+* V remove(Object Key)	: 주어진 키와 일치하는 Map.Entry를 삭제하고 값을 리턴합니다.
+
+
+참조 : 
+https://gbsb.tistory.com/247#map-interface-groups-classes
+
+https://fbtmdwhd33.tistory.com/255
+
+https://st-lab.tistory.com/142
+
+https://coding-factory.tistory.com/550
