@@ -156,7 +156,7 @@
 * [ ] 동기화와 비동기화의 차이(Syncronous vs Asyncronous)
 * [ ] java에서 '=='와 'equals()'의 차이
 * [ ] java의 리플렉션(Reflection) 이란
-* [ ] Stream이란?
+* [X] [Stream이란?](/java/stream.md)
 * [ ] Lambda란?
 * [ ] Java 버전
 
