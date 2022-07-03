@@ -144,14 +144,14 @@
 * [X] [Call by Reference와 Call by Value의 차이](/java/call_by_reference_and_value.md)
 * [X] [인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)](/java/abstract_class_interface.md)
 * [X] [JVM 구조 및 실행과정](/java/JVM.md)
-* [ ] 자바 메모리 구조
+* [X] [자바 메모리 구조](/java/java_memory.md)
   * 클래스 로드 방법
   * 클래스 로드 과정
-* [ ] Java Collections Framework
+* [X] [Java Collections Framework](/java/collections.md)
   * java Map 인터페이스 구현체의 종류
   * java Set 인터페이스 구현체의 종류
   * java List 인터페이스 구현체의 종류
-* [ ] Annotation
+* [X] [Annotation](/java/annotation.md)
 * [ ] String, StringBuilder, StringBuffer
 * [ ] 동기화와 비동기화의 차이(Syncronous vs Asyncronous)
 * [ ] java에서 '=='와 'equals()'의 차이
