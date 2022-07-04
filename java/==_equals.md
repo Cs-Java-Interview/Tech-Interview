@@ -54,6 +54,9 @@ System.out.println(A==B); // true
         3. 없다면 StringConstants Pool에 해당 값을 할당
         4. 반환
 
+- String은 "Happy Java"와 같이 리터럴로 표기가 가능하지만 primitive 자료형은 아니다. String은 리터럴 표현식을 사용할 수 있도록 자바에서 특별 대우해주는 자료형이다.
+    → [https://wikidocs.net/205](https://wikidocs.net/205)
+
 **Reference**
 
 [https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/?ref=gcse](https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/?ref=gcse)
