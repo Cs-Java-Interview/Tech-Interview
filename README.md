@@ -152,9 +152,9 @@
   * java Set 인터페이스 구현체의 종류
   * java List 인터페이스 구현체의 종류
 * [X] [Annotation](/java/annotation.md)
-* [ ] String, StringBuilder, StringBuffer
-* [ ] 동기화와 비동기화의 차이(Syncronous vs Asyncronous)
-* [ ] java에서 '=='와 'equals()'의 차이
+* [X] [String, StringBuilder, StringBuffer](/java/string_buffer_builder.md)
+* [X] [동기화와 비동기화의 차이(Syncronous vs Asyncronous)](/java/syncronous_asyncronous.md)
+* [X] [java에서 '=='와 'equals()'의 차이](/java/==_equals.md)
 * [ ] java의 리플렉션(Reflection) 이란
 * [X] [Stream이란?](/java/stream.md)
 * [ ] Lambda란?
