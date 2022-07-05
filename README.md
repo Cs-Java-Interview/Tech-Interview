@@ -157,8 +157,8 @@
 * [X] [java에서 '=='와 'equals()'의 차이](/java/==_equals.md)
 * [ ] java의 리플렉션(Reflection) 이란
 * [X] [Stream이란?](/java/stream.md)
-* [ ] Lambda란?
-* [ ] Java 버전
+* [X] [Lambda란?](/java/lambda.md)
+* [X] [Java 버전](/java/java_version.md)
 
 ## 8. JavaScript
 :arrow_forward: [답변 내용](/contents/javascript.md)
