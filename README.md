@@ -155,7 +155,7 @@
 * [X] [String, StringBuilder, StringBuffer](/java/string_buffer_builder.md)
 * [X] [동기화와 비동기화의 차이(Syncronous vs Asyncronous)](/java/syncronous_asyncronous.md)
 * [X] [java에서 '=='와 'equals()'의 차이](/java/==_equals.md)
-* [ ] java의 리플렉션(Reflection) 이란
+* [X] [java의 리플렉션(Reflection) 이란](/java/reflection.md)
 * [X] [Stream이란?](/java/stream.md)
 * [X] [Lambda란?](/java/lambda.md)
 * [X] [Java 버전](/java/java_version.md)
