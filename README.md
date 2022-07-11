@@ -177,9 +177,9 @@
 
 ## 9. Spring
 :arrow_forward: [답변 내용](/contents/spring.md)
-* [ ] 스프링 프레임워크란
-* [ ] Spring, Spring MVC, Spring Boot의 차이
-* [ ] Bean이란
+* [X] [스프링 프레임워크란](/spring/spring_framework.md)
+* [X] [Spring, Spring MVC, Spring Boot의 차이](/spring/spring_spring_mvc_spring_boot.md)
+* [X] [Bean이란](/spring/spring_bean.md)
 * [X] [Container란](/spring/container.md)
 * [ ] IOC(Inversion of Control, 제어의 역전)란
 * [ ] MVC 패턴이란
