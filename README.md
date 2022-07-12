@@ -182,8 +182,8 @@
 * [X] [Bean이란](/spring/spring_bean.md)
 * [X] [Container란](/spring/container.md)
 * [X] [IOC(Inversion of Control, 제어의 역전)란](/spring/ioc.md)
-* [ ] MVC 패턴이란
-* [ ] DI(Dependency Injection, 의존성 주입)란
+* [X] [MVC 패턴이란](/spring/mvc_pattern.md)
+* [ ] [DI(Dependency Injection, 의존성 주입)란](/spring/spring_di.md)
 * [ ] AOP(Aspect Oriented Programming)란
 * [ ] POJO
 * [ ] DAO와 DTO의 차이
