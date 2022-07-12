@@ -31,7 +31,7 @@
 
 * JVM이 실행되면서 생기는 공간.
 * Class 정보, 전역변수 정보, Static 변수 정보가 저장되는 공간
-* Runtime Constant Poll에는 말 상수 정보가 저장된다.
+* Runtime Constant Poll에는 말 그대로 상수 정보가 저장된다.
 * 모든 스레드에서 정보가 공유된다.
 
 ### 힙 영역 (Heap Area)
