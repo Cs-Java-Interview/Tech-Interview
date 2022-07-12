@@ -54,7 +54,7 @@ public class A {
 
 IoC는 객체의 생성과 객체 생명 관리, 흐름 제어를 제 3자에게 위임하는 것을 의미하고,
 
-IoC를 구현하는 방법에는 DL과 DI이 있는데, 주로 DL을 사용한다.
+IoC를 구현하는 방법에는 DL과 DI이 있는데, 주로 DI을 사용한다.
 
 - **DL(Dependency Lookup)**
     - 의존성 검색을 의미한다.
