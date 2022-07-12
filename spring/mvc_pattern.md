@@ -77,3 +77,10 @@
   * 이와 같은 현상을 Massive-View-Controller 현상이라고 한다.
 
 
+참고 :
+https://velog.io/@seongwon97/MVC-%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80
+
+https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC
+
+https://osy0907.tistory.com/63
+
