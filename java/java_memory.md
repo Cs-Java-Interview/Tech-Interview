@@ -27,7 +27,7 @@
   * PC 레지스터(PC Register)
   * 네이티브 메서드 스택(Native Method Stack)
 
-### 메드 영역(Method 영역)
+### 메서드 영역(Method 영역)
 
 * JVM이 실행되면서 생기는 공간.
 * Class 정보, 전역변수 정보, Static 변수 정보가 저장되는 공간
