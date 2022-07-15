@@ -185,7 +185,7 @@
 * [X] [MVC 패턴이란](/spring/mvc_pattern.md)
 * [ ] [DI(Dependency Injection, 의존성 주입)란](/spring/spring_di.md)
 * [ ] AOP(Aspect Oriented Programming)란
-* [ ] POJO
+* [X] [POJO](/spring/pojo.md)
 * [ ] DAO와 DTO의 차이
 * [ ] Spring JDBC를 이용한 데이터 접근
 * [ ] Filter와 Interceptor 차이
