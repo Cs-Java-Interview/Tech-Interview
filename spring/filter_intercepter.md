@@ -21,7 +21,7 @@
 
 - 애플리케이션에서 자주 사용되는 기능(공통 부분)을 분리하여 관리하는 기능
 
-![https://github.com/WeareSoft/tech-interview/raw/master/contents/images/filterInterceptor.jpg](https://github.com/WeareSoft/tech-interview/raw/master/contents/images/filterInterceptor.jpg)
+![image](https://user-images.githubusercontent.com/77563814/179411201-a3fb9802-2764-4900-a897-140916f9ebf5.png)
 
 1. **실행 시점이 다름**
     - 요청이 들어오면 Filter → Interceptor → AOP → Interceptor → Filter 순으로 실행된다.
