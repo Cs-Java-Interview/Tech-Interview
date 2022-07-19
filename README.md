@@ -183,11 +183,11 @@
 * [X] [Container란](/spring/container.md)
 * [X] [IOC(Inversion of Control, 제어의 역전)란](/spring/ioc.md)
 * [X] [MVC 패턴이란](/spring/mvc_pattern.md)
-* [ ] [DI(Dependency Injection, 의존성 주입)란](/spring/spring_di.md)
+* [X] [DI(Dependency Injection, 의존성 주입)란](/spring/spring_di.md)
 * [X] [AOP(Aspect Oriented Programming)란](/spring/spring_aop.md)
 * [X] [POJO](/spring/pojo.md)
-* [ ] DAO와 DTO의 차이
-* [ ] Spring JDBC를 이용한 데이터 접근
+* [X] [DAO와 DTO의 차이](/spring/spring_dto_dao.md)
+* [X] [Spring JDBC를 이용한 데이터 접근](/spring/spring_jdbc.md)
 * [X] [Filter와 Interceptor 차이](/spring/filter_intercepter.md)
 * [X] [디스패처서블릿(DispatcherServlet) 이란?](/spring/Dispatcher-Servlet.md)
 
