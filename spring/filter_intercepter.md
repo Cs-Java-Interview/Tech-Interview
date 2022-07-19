@@ -120,6 +120,7 @@
     - **Interceptor는** 스프링 단으로 들어온 클라이언트의 요청과 관련되어 전역적으로 처리해야 하거나, 서비스 로직을 섞어야 할 때 사용하는 것이 좋다.
 3. Request/Response 객체 조작 가능
     - Filter는 Request/Response 객체 조작 가능하다(다른 객체로 바꿀 수 있음). → [참고](https://supawer0728.github.io/2018/04/04/spring-filter-interceptor/)
+        - 필요 시 커스터마이징 된 ServletRequest를 대신 사용한다.
     - Interceptor는 Request/Response을 다른 객체로 넘겨줄 수 없다. 대신에 객체 내부의 값은 조작 가능하다. 예를 들어 사용자의 ID를 기반으로 조회한 사용자 정보를 HttpServletRequest에 넣어줄 수 있다.
 4. 예외 처리 
     - 인터셉터는 `@ControllerAdvice`와 `@ExceptionHandler`를 사용하여 예외 처리가 가능하지만, 필터는 이를 사용하여 예외 처리를 할 수 없다.
