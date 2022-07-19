@@ -188,8 +188,8 @@
 * [X] [POJO](/spring/pojo.md)
 * [ ] DAO와 DTO의 차이
 * [ ] Spring JDBC를 이용한 데이터 접근
-* [ ] Filter와 Interceptor 차이
-* [ ] 디스패처서블릿(DispatcherServlet) 이란?
+* [X] [Filter와 Interceptor 차이](/spring/filter_intercepter.md)
+* [X] [디스패처서블릿(DispatcherServlet) 이란?](/spring/Dispatcher-Servlet.md)
 
 ## 10. Security 
 :arrow_forward: [답변 내용](/contents/security.md)
