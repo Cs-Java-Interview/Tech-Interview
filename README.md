@@ -193,8 +193,8 @@
 
 ## 10. Security 
 :arrow_forward: [답변 내용](/contents/security.md)
-* [ ] 대칭키와 비대칭키 차이
-* [ ] 패스워드 암호화 방법 
+* [X] [대칭키와 비대칭키 차이](/security/key.md)
+* [X] [패스워드 암호화 방법](/security/password.md)
 * [X] [SQL Injection 공격](/security/sql_injection.md)
 * [X] [CSRF 공격](/security/csrf.md)
 * [ ] XSS 공격
