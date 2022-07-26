@@ -197,8 +197,8 @@
 * [X] [패스워드 암호화 방법](/security/password.md)
 * [X] [SQL Injection 공격](/security/sql_injection.md)
 * [X] [CSRF 공격](/security/csrf.md)
-* [X] XSS 공격(security/xss_attack.md)
-* [X] OAuth(security/oauth.md)
+* [X] [XSS 공격](security/xss_attack.md)
+* [X] [OAuth](security/oauth.md)
 
 ## 11. ETC
 :arrow_forward: [답변 내용](/contents/etc.md)
