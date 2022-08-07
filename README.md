@@ -98,7 +98,7 @@
 * [ ] 디자인 패턴의 개념과 종류
 * [ ] Singleton 패턴
 * [ ] Strategy 패턴
-* [ ] Observer 패턴
+* [X] [Observer 패턴](/design_pattern/observer.md)
 * [ ] Adapter 패턴
 * [ ] Proxy 패턴과 Proxy 서버
 * [ ] Template Method 패턴
