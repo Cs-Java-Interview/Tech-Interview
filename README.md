@@ -100,7 +100,7 @@
 * [ ] Strategy 패턴
 * [X] [Observer 패턴](/design_pattern/observer.md)
 * [X] [Adapter 패턴](/design_pattern/adapter.md)
-* [ ] Proxy 패턴과 Proxy 서버
+* [X] [Proxy 패턴과 Proxy 서버](/design_pattern/proxy.md)
 * [ ] Template Method 패턴
 * [ ] Factory Method 패턴
 * [ ] MVC1 패턴과 MVC2 패턴
