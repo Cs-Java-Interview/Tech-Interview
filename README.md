@@ -99,7 +99,7 @@
 * [ ] Singleton 패턴
 * [ ] Strategy 패턴
 * [X] [Observer 패턴](/design_pattern/observer.md)
-* [ ] Adapter 패턴
+* [X] [Adapter 패턴](/design_pattern/adapter.md)
 * [ ] Proxy 패턴과 Proxy 서버
 * [ ] Template Method 패턴
 * [ ] Factory Method 패턴
