@@ -95,9 +95,9 @@
 
 ## 5. Design Pattern
 :arrow_forward: [답변 내용](/contents/designpattern.md)
-* [ ] 디자인 패턴의 개념과 종류
-* [ ] Singleton 패턴
-* [ ] Strategy 패턴
+* [X] [디자인 패턴의 개념과 종류](/design_pattern/design_pattern.md)
+* [X] [Singleton 패턴](/design_pattern/singleton.md)
+* [X] [Strategy 패턴](/design_pattern/strategy_pattern.md)
 * [X] [Observer 패턴](/design_pattern/observer.md)
 * [X] [Adapter 패턴](/design_pattern/adapter.md)
 * [X] [Proxy 패턴과 Proxy 서버](/design_pattern/proxy.md)
