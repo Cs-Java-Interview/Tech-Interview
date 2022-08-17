@@ -206,9 +206,9 @@
 * [X] [웹 브라우저에서 서버로 어떤 페이지를 요청하면 일어나는 일련의 과정을 설명](/etc/web_browser.md)
   * Ex. url에 'www.naver.com' 을 입력했다. 일어나는 현상에 대해 아는대로 설명하라.
 * [X] [컴파일러와 인터프리터](/etc/compiler_interpreter.md)
-* [ ] 분산락
-* [ ] 프레임워크와 라이브러리의 차이
-* [ ] 64bit CPU와 32bit CPU 차이
+* [X] [분산락](/etc/lock.md)
+* [X] [프레임워크와 라이브러리의 차이](/etc/framework_library.md)
+* [X] [64bit CPU와 32bit CPU 차이](/etc/64bit_32bit.md)
 * [ ] CVS, SVN, Git
 * [ ] Git Branch 종류(5가지)
 * [ ] 웹 서버(Web Server)와 웹 어플리케이션 서버(WAS)의 차이
