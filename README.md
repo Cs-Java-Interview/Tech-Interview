@@ -209,9 +209,9 @@
 * [X] [분산락](/etc/lock.md)
 * [X] [프레임워크와 라이브러리의 차이](/etc/framework_library.md)
 * [X] [64bit CPU와 32bit CPU 차이](/etc/64bit_32bit.md)
-* [ ] CVS, SVN, Git
-* [ ] Git Branch 종류(5가지)
-* [ ] 웹 서버(Web Server)와 웹 어플리케이션 서버(WAS)의 차이
+* [X] [CVS, SVN, Git](/etc/scm.md)
+* [X] [Git Branch 종류(5가지)](/etc/git_branch.md)
+* [X] [웹 서버(Web Server)와 웹 어플리케이션 서버(WAS)의 차이](/etc/webserver_was.md)
 * [ ] 애자일 방법론이란
 * [ ] Servlet과 JSP
 * [ ] Redis와 Memcached의 차이
