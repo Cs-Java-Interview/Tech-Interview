@@ -8,7 +8,7 @@
   CPU가 RAM에 접근하는 시간(Memory access time)이 오래 걸려서 CPU 데이터 처리 속도에 영향을 주었다. 따라서 CPU와 가까운 저장공간이 필요했고, 그것이 레지스터이다.
 > 
 
-레지스터는 CPU가 처리하는 데이터의 최소 단위인데, 이 레지스터의 단위가 몇 bit인지 의미한다. 즉 64bit CPU는 64bit, 32bit CPU는 32bit크기의 레지스터를 가지고 처리한다.
+레지스터는 CPU가 처리하는 데이터의 최소 단위이다. 64bit CPU, 32bit CPU에서의 bit는 각 레지스터의 단위가 몇 bit인지 의미한다. 즉 64bit CPU는 64bit, 32bit CPU는 32bit크기의 레지스터를 가지고 처리한다.
 
 ## 64bit, 32bit OS과 하위호환
 
