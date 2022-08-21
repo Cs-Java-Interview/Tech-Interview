@@ -215,7 +215,7 @@
 * [ ] 애자일 방법론이란
 * [ ] Servlet과 JSP
 * [ ] Redis와 Memcached의 차이
-* [ ] Maven과 Gradle의 차이
+* [X] [Maven과 Gradle의 차이](/etc/maven_gradle.md)
 * [ ] Blocking과 Non-Blocking
 * [ ] 함수형 프로그래밍이란
 * [ ] 이벤트 기반 프로그래밍이란
