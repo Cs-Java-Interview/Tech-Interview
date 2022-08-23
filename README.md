@@ -217,7 +217,7 @@
 * [ ] Redis와 Memcached의 차이
 * [X] [Maven과 Gradle의 차이](/etc/maven_gradle.md)
 * [X] [Blocking과 Non-Blocking](/etc/blocking_nonblocking.md)
-* [ ] 함수형 프로그래밍이란
+* [X] [함수형 프로그래밍이란](/etc/functional_programming.md)
 * [ ] 이벤트 기반 프로그래밍이란
 * [ ] Mock이란
 
