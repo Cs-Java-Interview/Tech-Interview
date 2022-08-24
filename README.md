@@ -212,9 +212,9 @@
 * [X] [CVS, SVN, Git](/etc/scm.md)
 * [X] [Git Branch 종류(5가지)](/etc/git_branch.md)
 * [X] [웹 서버(Web Server)와 웹 어플리케이션 서버(WAS)의 차이](/etc/webserver_was.md)
-* [ ] 애자일 방법론이란
-* [ ] Servlet과 JSP
-* [ ] Redis와 Memcached의 차이
+* [X] [애자일 방법론이란](/etc/agile.md)
+* [X] [Servlet과 JSP](/etc/jsp_servlet.md)
+* [X] [Redis와 Memcached의 차이](/etc/redis_memcached.md)
 * [X] [Maven과 Gradle의 차이](/etc/maven_gradle.md)
 * [X] [Blocking과 Non-Blocking](/etc/blocking_nonblocking.md)
 * [X] [함수형 프로그래밍이란](/etc/functional_programming.md)
